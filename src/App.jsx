@@ -136,6 +136,9 @@ export default function App() {
             onDone={() => setScreen("editor")}
           />
         )}
+        <footer style={{ textAlign: 'center', padding: '1rem', fontSize: '0.85rem', color: '#666' }}>
+  © {new Date().getFullYear()} Akanksha Singh . All rights reserved.
+</footer>
       </div>
     </div>
   );
