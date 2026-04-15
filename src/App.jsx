@@ -87,7 +87,7 @@ export default function App() {
           </h1>
         </div>
         <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-          {screen === "editor" && (
+          {(screen === "home" || screen === "editor") && (
             <button onClick={() => setScreen("settings")} style={{
               background: "var(--card)", border: "1.5px solid var(--border)",
               borderRadius: 12, width: 40, height: 40,
